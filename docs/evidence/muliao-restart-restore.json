@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-30T21:28:47.396459+08:00",
+  "verification": "Streamlit AppTest on deployed source; not a browser screenshot",
+  "os_user": "ds-tutor",
+  "access_gate_visible": true,
+  "new_session_isolated": true,
+  "restored_metrics": [
+    "2",
+    "1",
+    "50%",
+    "0"
+  ]
+}

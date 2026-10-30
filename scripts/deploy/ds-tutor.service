@@ -1,0 +1,27 @@
+[Unit]
+Description=Data Structures Tutor Web Application
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ds-tutor
+Group=ds-tutor
+WorkingDirectory=/data/ds-tutor/app
+EnvironmentFile=/data/ds-tutor/config/server.env
+Environment=PYTHONUTF8=1
+Environment=PYTHONUNBUFFERED=1
+Environment=HOME=/data/ds-tutor/runtime
+ExecStart=/data/ds-tutor/venv/bin/python -m streamlit run app.py --server.address=0.0.0.0 --server.port=8890 --server.headless=true --server.fileWatcherType=none --browser.gatherUsageStats=false
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=20
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/data/ds-tutor/runtime
+
+[Install]
+WantedBy=multi-user.target

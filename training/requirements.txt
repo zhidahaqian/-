@@ -1,0 +1,9 @@
+# 云端 Linux / Python 3.11；先使用与驱动匹配的 PyTorch 镜像。
+torch>=2.6,<3
+transformers==4.57.1
+peft==0.17.1
+accelerate==1.10.1
+bitsandbytes==0.48.1
+fastapi==0.119.0
+uvicorn==0.37.0
+matplotlib==3.10.7

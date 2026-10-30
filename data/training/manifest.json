@@ -1,0 +1,89 @@
+{
+  "seed": 42,
+  "provenance": "本项目自编题库，经固定模板生成辅导样本；尚待教师复核。",
+  "purpose": "给定参考资料的辅导行为微调；不是闭卷知识能力基准。",
+  "question_bank_sha256": "e7b6f9619b57965e9cfc6a84922968a86a691db186573668a30c505e233eb276",
+  "splits": {
+    "train": {
+      "samples": 144,
+      "questions": 36,
+      "sha256": "52be0186172f7cfef38b38f317856ed24076fe128e42fc7446d6e6f061adee25",
+      "question_ids": [
+        "DS001",
+        "DS003",
+        "DS004",
+        "DS006",
+        "DS007",
+        "DS010",
+        "DS012",
+        "DS016",
+        "DS017",
+        "DS018",
+        "DS019",
+        "DS020",
+        "DS021",
+        "DS023",
+        "DS025",
+        "DS028",
+        "DS029",
+        "DS030",
+        "DS034",
+        "DS036",
+        "DS037",
+        "DS038",
+        "DS039",
+        "DS040",
+        "DS041",
+        "DS042",
+        "DS045",
+        "DS047",
+        "DS048",
+        "DS049",
+        "DS052",
+        "DS053",
+        "DS054",
+        "DS057",
+        "DS058",
+        "DS060"
+      ]
+    },
+    "validation": {
+      "samples": 48,
+      "questions": 12,
+      "sha256": "b226e313a8f0ac79dd3ad3a1ac45e8edd88b285b68290156132f2f42891c8d91",
+      "question_ids": [
+        "DS002",
+        "DS005",
+        "DS014",
+        "DS015",
+        "DS022",
+        "DS024",
+        "DS031",
+        "DS035",
+        "DS046",
+        "DS050",
+        "DS055",
+        "DS056"
+      ]
+    },
+    "test": {
+      "samples": 48,
+      "questions": 12,
+      "sha256": "d5b015c2a1dfe9f4299f84c2b358d25dbcbecb9c9fc7df122640cff1bc3b6932",
+      "question_ids": [
+        "DS008",
+        "DS009",
+        "DS011",
+        "DS013",
+        "DS026",
+        "DS027",
+        "DS032",
+        "DS033",
+        "DS043",
+        "DS044",
+        "DS051",
+        "DS059"
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-10-30T21:28:48.504057+08:00",
+  "python": "3.12.3",
+  "system": "Linux-6.8.0-63-generic-x86_64-with-glibc2.39",
+  "service": {
+    "MainPID": "47897",
+    "NRestarts": "0",
+    "MemoryCurrent": "32309248",
+    "User": "ds-tutor",
+    "ActiveState": "active",
+    "SubState": "running",
+    "UnitFileState": "enabled"
+  },
+  "server_environment_permissions": "0o600",
+  "app_has_dotenv_file": false,
+  "versions": {
+    "streamlit": "1.50.0",
+    "requests": "2.32.5",
+    "python-dotenv": "1.1.1",
+    "pandas": "2.3.3"
+  },
+  "local_health": {
+    "status": 200,
+    "body": "ok"
+  },
+  "database_exists": true,
+  "total_submissions": 2,
+  "learner_count": 1,
+  "database_integrity": "ok"
+}

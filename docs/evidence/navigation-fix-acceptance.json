@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-30T13:47:42.821227+00:00",
+  "passed": true,
+  "method": "Streamlit AppTest on deployed Linux source; isolated SQLite database; mocked model; no external API requests",
+  "checks": [
+    "Correct answer on DS003 stays on DS003",
+    "Multiline followup accepts text and displays mocked reply; blank submit makes no model call",
+    "Wrong answer on DS004 stays on DS004",
+    "Returning from dashboard keeps DS004",
+    "Continuous wrong-answer review retains DS005 after submission and completes both questions"
+  ],
+  "mock_model_calls": 1,
+  "sha256": {
+    "ds_tutor/practice.py": "7335be917a24b0fa94014b612c03b6fa96511e299eb37d36aebc7d25e433cf6e",
+    "assets/style.css": "4c22e7298ded7364a232a77b74f784f86c39f305b8f03210f310b19b05eac459"
+  }
+}
